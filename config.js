@@ -6,8 +6,8 @@ const Sequelize = require("sequelize");
 
 module.exports = {
   development: {
-    username: "nextpg",
-    password: "nextpg",
+    username: "shing",
+    password: "shing",
     database: "nextdb",
     host: "127.0.0.1",
     port: 5432,
