@@ -2,9 +2,6 @@
   "name": "next-postgres",
   "version": "1.0.0",
   "main": "index.js",
-  "engines": {
-    "node": "10.6.0"
-  },
   "scripts": {
     "dev": "babel-node index.js --presets @babel/preset-env",
     "build": "NODE_ENV=production next build && npm install -g sequelize && npm run migrate",
