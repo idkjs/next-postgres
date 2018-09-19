@@ -6,10 +6,10 @@ const Sequelize = require("sequelize");
 
 module.exports = {
   development: {
-    username: "shing",
-    password: "shing",
+    username: "test",
+    password: "test",
     database: "nextdb",
-    host: "127.0.0.1",
+    host: "138.197.11.92",
     port: 5432,
     dialect: "postgres",
     operatorsAliases: Sequelize.Op
